@@ -1,7 +1,7 @@
 ---
 title: "Customize the GitHub Pages Blog"
 header:
-  image: /assets/images/pencils.jpg
+  image: "/assets/images/pencils.jpg"
 categories:
   - Blog
 tags:
