@@ -7,6 +7,7 @@ categories:
 tags:
   - GitHub Pages
   - Blog
+comments: true
 toc: true
 toc_label: "Contents"
 toc_icon: "file-alt"
