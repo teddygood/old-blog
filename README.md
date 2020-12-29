@@ -1,4 +1,4 @@
-# Chanho Lee (teddygood)
+# Chanho Lee (TeddyGood)
 
 공부한 것을 기록하는 블로그입니다.
 
