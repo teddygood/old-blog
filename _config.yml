@@ -15,12 +15,12 @@
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "ko-KR"
+locale: "en"
 title: "TeddyGood!"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Chanho Lee"
-description: "공부할게 너무 많다"
+description: "TeddyGood!"
 url: "https://teddygood.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "teddygood/teddygood.github.io"
