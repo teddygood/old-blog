@@ -26,6 +26,12 @@ tag:
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
+```latex
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+```
+
+
+위의 수식은 LaTex 문법으로 작성하였는데 잘 작동되는 것을 확인 할 수 있다.
 이 밖에도 바꿀 것들이 많다. 바꾸는 부분들은 천천히 업데이트할 예정이다.
 
 ## Official Documents
