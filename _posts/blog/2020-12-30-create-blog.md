@@ -1,11 +1,11 @@
 ---  
 title: "Github 블로그 생성"  
-categories: review  
+categories: Blog  
 tag:
   - Github
   - Blog
   - Jekyll
-  - Github blog
+  - Github Blog
   - Git
   - minimal-mistsakes
 ---  
