@@ -1,5 +1,5 @@
 ---  
-title: "[리뷰] Do it! HTML5+CSS3 웹 표준의 정석 2판"  
+title: "[Book Review] Do it! HTML5+CSS3 웹 표준의 정석 2판"  
 categories: review  
 tag:
   - review
