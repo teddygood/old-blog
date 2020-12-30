@@ -8,7 +8,6 @@ tag:
   - Github Blog
   - Git
   - minimal-mistsakes
-toc_sticky: true
 ---  
 
 ## 드디어 시작
@@ -39,6 +38,8 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 >- [MathJax](https://www.mathjax.org/)
 >- [favicon](https://favicon.io/)
+>- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+>- [Jekyll](https://jekyllrb-ko.github.io/)
 
 ## References
 

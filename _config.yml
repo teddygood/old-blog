@@ -253,6 +253,7 @@ defaults:
       share: true
       related: true
       toc: true
+      toc-sticky: true
       sitemap:
         changefreq: daily
         priority: 1.0
