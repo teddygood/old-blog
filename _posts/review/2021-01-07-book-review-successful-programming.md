@@ -17,7 +17,7 @@ last_modified_at: 2021-01-20
 
 ## Book Info
 
-[![책](assets\images\review\How-to-sutdy-programming.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788997924417&orderClick=LAG&Kc=)
+[![책](assets\images\review\How-to-sutdy-programming.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788997924417&orderClick=LEa&Kc=)
 
 - 제목: 성공하는 프로그래밍 공부법
 - 저자: 박재성, 고종범, 남재창, 박지현
