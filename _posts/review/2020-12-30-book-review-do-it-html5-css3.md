@@ -8,10 +8,10 @@ tag:
   - Do it!
   - Do it! HTML5+CSS3 웹 표준의 정석
 date: 2020-12-30
-last_modified_at: 2021-01-07
+last_modified_at: 2021-02-09
 ---  
 
-HTML 책이 없다면 갖고 있으면 나쁘지는 않은 책.
+HTML 책이 없다면 갖고 있으면 나쁘지는 않은 책
 
 ---
 

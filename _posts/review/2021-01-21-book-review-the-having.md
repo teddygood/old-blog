@@ -9,7 +9,7 @@ tag:
   - 심리
   - 행운
 date: 2020-01-21
-last_modified_at: 2021-01-21
+last_modified_at: 2021-02-09
 ---  
 
 부와 행운을 끌어당기는 힘
@@ -18,9 +18,9 @@ last_modified_at: 2021-01-21
 
 ## Book Info
 
-[![책](/assets/images/review/The-Having.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791190382175&orderClick=LEa&Kc=#N)
+[![책](/assets/images/review/The-Having.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791190382175&orderClick=LEa&Kc=)
 
-- 제목: Do it! HTML5+CSS3 웹 표준의 정석
+- 제목: 더 해빙(The Having)
 - 저자: 이서윤, 홍주연
 - 출판사: 수오서재
 - 출간: 2020-03-01
