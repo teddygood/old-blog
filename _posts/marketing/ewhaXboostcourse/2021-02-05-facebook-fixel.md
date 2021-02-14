@@ -1,5 +1,5 @@
 ---  
-title: "[이화여대X부스트코스] 페이스북・인스타그램 마케팅 Chapter 3. 페이스북 타겟팅"  
+title: "[이화여대X부스트코스] 페이스북・인스타그램 마케팅 Chapter 4. 보다 높은 광고의 완성, 픽셀 알아보기"  
 categories: Marketing  
 tag:
   - marketing
@@ -9,7 +9,7 @@ tag:
   - facebook
   - instagram
 date: 2020-02-05
-last_modified_at: 2021-02-05
+last_modified_at: 2021-02-14
 ---  
 
 이화여대 인재개발원과 부스트코스가 함께하는 스터디 전용강좌 정리
