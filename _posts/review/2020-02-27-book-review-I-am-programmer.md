@@ -7,8 +7,8 @@ tag:
   - Developer
   - 글로벌 개발자
   - 팟캐스트
-date: 2020-02-09
-last_modified_at: 2021-02-09
+date: 2020-02-27
+last_modified_at: 2021-02-30
 ---  
 
 뉴욕, 서울, 도쿄 개발자의 촌철살인 IT 이야기
