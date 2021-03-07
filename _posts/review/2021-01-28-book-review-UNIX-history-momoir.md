@@ -20,7 +20,7 @@ last_modified_at: 2021-01-28
 [![책](/assets/images/review/UNIX-history-and-memoir.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243282&orderClick=LEa&Kc=)
 
 - 제목: 유닉스의 탄생
-- 저자: Brian Wilson Kernighan
+- 저자: Brian W. Kernighan
 - 역자: 하성창
 - 출판사: 한빛미디어
 - 출간: 2020-08-03
