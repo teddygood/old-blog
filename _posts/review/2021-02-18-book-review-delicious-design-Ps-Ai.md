@@ -14,6 +14,8 @@ last_modified_at: 2021-02-18
 
 ---
 
+![나는 리뷰어다 2021](/assets/images/review/I-am-reviewer.jpg)
+
 ## Book Info
 
 [![책](/assets/images/review/delicious-design-Ps-Ai.md.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243848&orderClick=LEa&Kc=)
