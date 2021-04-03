@@ -15,7 +15,7 @@ last_modified_at: 2021-03-20
 
 ---
 
-![나는 리뷰어다 2021](/assets/images/review/I-am-reviewer.jpg)
+![나는 리뷰어다 2021](/assets/images/I-am-reviewer.jpg)
 
 ## Book Info
 
