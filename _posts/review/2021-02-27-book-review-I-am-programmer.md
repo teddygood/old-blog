@@ -7,7 +7,7 @@ tag:
   - Developer
   - 글로벌 개발자
   - 팟캐스트
-date: 2020-02-27
+date: 2021-02-27
 last_modified_at: 2021-02-30
 ---  
 
