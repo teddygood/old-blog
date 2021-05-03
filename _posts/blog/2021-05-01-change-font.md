@@ -36,7 +36,7 @@ last_modified_at: 2021-05-01
 
 구글링을 한 결과 [블로그 리뉴얼, 그리고 D2Coding 웹폰트](https://noonnu.cc/font_page?commit=filter&search=%EB%82%98%EB%88%94&order_by=pd)라는 글을 찾게 됐다.
 
-![D2coding star](/assets/images/d2coding-star.JPG)
+![D2coding star](/assets/images/d2coding-star.jpg)
 
 바로 [이분의 깃허브](https://github.com/wan2land/d2coding)에 들어가서 Star을 눌러주고 블로그에 적용을 시켰다.(wan2land님 감사합니다!)
 
