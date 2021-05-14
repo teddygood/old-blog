@@ -43,11 +43,11 @@ SQL이든 NoSQL이든 데이터베이스 공부는 필요하다고 생각했기�
 
 이 책은 제목에서도 보셨다시피 SQL을 공부하는 책입니다. MySQL, ORACLE DATABASE, IBM DB2, Microsoft SQL Server, PostgreSQL 같이 SQL은 종류가 많지만, 이 책은 이 중 MySQL을 중점으로 설명합니다. 가끔 MySQL 이외의 SQL 예제들이 나오기도 합니다.
 
-![나는 리뷰어다 2021](/assets/images/mysql-environment-katacoda.jpg)
+![katacoda](/assets/images/mysql-environment-katacoda.jpg)
 
 SQL 예제들은 테이블을 직접 생성하여 사용하기도 하지만, 대부분 sakila database를 사용합니다. sakila database를 다운받아 환경을 구성하는 것을 어려워하는 사람들을 위해 이 책의 원서 출판사인 O'REILLY에서 운영하는 [Katacoda](https://www.katacoda.com/)라는 실습 환경을 제공해줍니다.
 
-![나는 리뷰어다 2021](/assets/images/mysql-environment-wsl2.jpg)
+![wsl2](/assets/images/mysql-environment-wsl2.jpg)
 
 이외에도 환경을 구축할 수 있는 사람은 스스로 환경을 구축하여 책의 예제를 따라 하며 실습을 진행할 수 있습니다. 개인적으로 저는 WSL2(Windows Subsystem for Linux 2)를 사용하여 MySQL 환경을 구축했습니다. 처음에는 Windows에서 MySQL을 사용하려 했으나 이 책은 터미널에서 쿼리를 작성하는 환경을 사용하기 때문에 Workbench를 사용하지 않고 터미널에서 실습을 진행했습니다.
 
