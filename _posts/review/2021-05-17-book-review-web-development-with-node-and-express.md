@@ -6,7 +6,8 @@ tag:
   - Node.js
   - Express
   - 백엔드
-  - Amazon Web Service
+  - 자바스크립트
+  - DB
 date: 2021-05-14
 ---  
 
