@@ -1,5 +1,5 @@
 ---  
-title: "[Python] Pycharm requirements"  
+title: "[Python] Pycharm requirement"  
 categories: Python  
 tag:
   - Pycharm
@@ -36,3 +36,31 @@ Django 블로그 만들기가 끝난 후 이제 Docker로 옮기기 위해 Docke
 너무 빨리 해결할 수 있어서 캡처도 못 했다.
 
 끝.
+
+## 해결한 줄 알았으나 아니었다
+
+package들을 지웠었으므로 다시 install을 해주라는 문구가 뜨길래 해줬다.
+
+근데 또 다시 뜨는 문구.
+
+![문구](/assets/images/package-requirement.jpg)  
+
+이번에는 이미지를 찍어왔다.
+
+![details](/assets/images/installing-packages-failed.jpg)
+
+![더 상세한 details](/assets/images/pycharm-details.jpg)
+
+문제는 `requests가 2.25.13 버전이 없는데 왜 이렇게 requirements.txt에 적혀있냐`였다.
+
+근데 난 requirements.txt를 건드린 적이 없는데? 
+
+그저 `pip freeze > requirements.txt`를 사용해서 만들었는데 상당히 억울하다.
+
+혹시나 이런 버전이 있나 싶어서 requests 공식 문서에도 들어가서 확인했는데 그런 건 없다. 내부적으로 버전이 설정되어 있는 것이 아닌가 추측해본다. 공식 문서에도 2.25.1까지 표기되어 있었다.
+
+## 진짜 해결
+
+어쨌든 해결 방법은 엄청 간단하다. requirements.txt에 적혀있는 `requests==2.25.13`을 `requests==2.25.1`로 바꾸면 위에서 뜬 문구는 뜨지 않는다.
+
+진짜 끝.
