@@ -24,3 +24,5 @@ date: 2021-06-02
 [The best Dockeer base image for Python application](https://pythonspeed.com/articles/base-image-python-docker-images/)
 
 ![더 상세한 details](/assets/images/crypto-building-error.jpg)
+
+[wsl2 docker](https://www.44bits.io/ko/post/wsl2-install-and-basic-usage)
