@@ -25,13 +25,7 @@ Django 블로그 만들기가 끝난 후 이제 Docker로 옮기기 위해 Docke
 
 ## 해결
 
-[stackoverflow](https://stackoverflow.com/questions/55306431/pycharm-warns-package-requirement-not-satisfied-when-using-pipenv-to-install-pac)  
-
-[IDEs Support (IntelliJ Platform) JetBrains](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360001522219-Package-requirements-not-satisfied-though-they-are-?page=1#community_comment_360000242119)  
-
 `File -> Invalidate Caches/Restart.. -> Invalidate and Restart`
-
-위의 사이트들을 찾고 빠르게 해결할 수 있었다. 
 
 너무 빨리 해결할 수 있어서 캡처도 못 했다.
 
@@ -64,3 +58,8 @@ package들을 지웠었으므로 다시 install을 해주라는 문구가 뜨길
 어쨌든 해결 방법은 엄청 간단하다. requirements.txt에 적혀있는 `requests==2.25.13`을 `requests==2.25.1`로 바꾸면 위에서 뜬 문구는 뜨지 않는다.
 
 진짜 끝.
+
+## References
+
+>- [stackoverflow](https://stackoverflow.com/questions/55306431/pycharm-warns-package-requirement-not-satisfied-when-using-pipenv-to-install-pac)  
+>- [IDEs Support (IntelliJ Platform) JetBrains](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360001522219-Package-requirements-not-satisfied-though-they-are-?page=1#community_comment_360000242119)  
