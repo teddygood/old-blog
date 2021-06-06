@@ -49,7 +49,7 @@ ERROR: No matching distribution found for cryptography==3.4.7
 $ sudo apk add gcc musl-dev python3-dev libffi-dev openssl-dev cargo
 ```
 
-
+위의 명령어를 추가하고 다시 build 하니 아래와 같이 에러가 떴다.
 
 ![더 상세한 details](/assets/images/crypto-building-error.jpg)
 
