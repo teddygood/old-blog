@@ -77,7 +77,7 @@ cryptography GitHub 저장소에서 가져온 이슈 이미지다. 현재의 상
 
 그 이유는 사용하는 라이브러리의 차이에서 시작된다. 대부분의 리눅스 배포판은 파이썬을 포함한 모든 C언어 프로그램에 필요한 C언어 표준 라이브러리인 GNU 라이브러리(glibc)를 사용한다. 그러나 Alpine Linux는 좀 더 경량화하기 위하여 GNU 라이브러리를 사용하는 것이 아니라 musl 라이브러리를 사용한다. 이 musl 라이브러리는 GNU 라이브러리로 컴파일 된 `Wheel 바이너리`를 지원하지 않는다. 그렇기 때문에 `.whl` 확장자를 갖는 패키지를 다운 받는 것이 아니라 `.tar.gz` 확장자 파일을 다운 받게 된다. 그렇기 때문에 alpine linux를 사용하는 경우 사용하는 모든 파이썬 패키지의 C코드를 컴파일 해야 하므로 빌드 시간도 오래 걸리며 용량도 커진다는 것이다. 
 
-대부분의 파이썬 패키지에는 PyPI의 Wheel 바이너리가 포함되어 있어 설치 시간이 빠르다. Wheel은 사실 .whl 확장자와 특별한 형식의 파일 이름으로 이루어진 ZIP 형식을 아카이브한 것이다. 쉽게 말하면 확장자만 바꾼 것이다.
+최근 대부분의 파이썬 패키지에는 PyPI의 Wheel 바이너리가 포함되어 있어 설치 시간이 빠르다. Wheel은 사실 .whl 확장자와 특별한 형식의 파일 이름으로 이루어진 ZIP 형식을 아카이브한 것이다. 쉽게 말하면 확장자만 바꾼 것이다.
 
 1. 빌드가 느리다.
 2. 이미지 용량이 커진다.
@@ -88,7 +88,20 @@ cryptography GitHub 저장소에서 가져온 이슈 이미지다. 현재의 상
 
 ### 그럼 어떤 OS를 사용해야 할까?
 
-성능에 관심 있으면 ubuntu
+성능에 관심 있으면 ubuntu, 가볍게 도커를 시작해보려면 alpine이 좋겠지만 현재 나는 파이썬 환경에서 도커를 사용해보려 하니 Debian buster를 기반으로 한 3.8-slim-buster를 사용한다.
+
+```Dockerfile
+RUN apk update \
+&& apk add postgresql-dev gcc python3-dev musl-dev zlib-dev jpeg-dev libffi-dev openssl-dev cargo
+```
+
+```
+FROM python:3.8-slim-buster
+```
+
+위의 apk로 패키지 설치한 부분의 명령어를 지우고, slim-buster로 바꿔준다.
+
+이후 다시 build 했을 때 잘 되는 모습을 확인할 수 있다.
 
 ## References
 
