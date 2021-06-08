@@ -95,7 +95,7 @@ RUN apk update \
 && apk add postgresql-dev gcc python3-dev musl-dev zlib-dev jpeg-dev libffi-dev openssl-dev cargo
 ```
 
-```
+```Dockerfile
 FROM python:3.8-slim-buster
 ```
 
