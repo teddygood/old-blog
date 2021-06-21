@@ -1,5 +1,5 @@
 ---  
-title: "[Book Review]소문난 명강의 김상형의 SQL 정복"  
+title: "[Book Review] 소문난 명강의 김상형의 SQL 정복"  
 categories: Review  
 tag:
   - SQL
@@ -38,7 +38,7 @@ Oracle, MSSQL, MariaDB 기반 실습환경
 
 ### 저자
 
-이 책의 저자는 [SoEn](soen.kr)이라는 사이트를 운영하시는 분입니다. C/C++ 또는 Windows API를 공부해보신 적이 있으시다면 아실 거라고 생각합니다. 예전에 [Windows API 정복](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979144215&orderClick=LAG&Kc=)이라는 책도 쓰셨던 분이죠. 그렇기에 이번 책을 읽으면서 설명들이 친근하다고 느껴졌습니다. 
+이 책의 저자는 [SoEn](soen.kr)이라는 사이트를 운영하시는 분입니다.(사이트가 연결이 안 되네요. `soen.kr`입니다.) C/C++ 또는 Windows API를 공부해보신 적이 있으시다면 아실 거라고 생각합니다. 예전에 [Windows API 정복](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979144215&orderClick=LAG&Kc=)이라는 책도 쓰셨던 분이죠. 그렇기에 이번 책을 읽으면서 설명들이 친근하다고 느껴졌습니다. 
 
 ### 다양한 종류의 SQL
 
