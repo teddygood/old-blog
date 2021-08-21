@@ -1,6 +1,6 @@
 ---  
 title: "[GitHub Blog] utterances로 Blog 댓글 적용하기"  
-categories: Review  
+categories: Blog  
 tag:
   - utterances
   - disqus
