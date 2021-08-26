@@ -66,6 +66,12 @@ Structured data
   - 구조화되어 있기 때문에 다른 구조화 된 데이터와 쉽게 연결
 - 20% 데이터는 정형 데이터
 - SQL로 데이터 쿼리
+  - ACID
+    - 트랜잭션이 안전하게 수행된다는 것을 보장하기 위한 성질
+    - Atomicity(원자성):
+    - Consistency(일관성)
+    - Isolation(독립성)
+    - Durability(지속성)
 
 Semi-structured data
 - structured data와 유사하지만 더 자유로움 -> 유연성이 더 좋음
@@ -109,6 +115,7 @@ SQL
 
 Database Schema
 - DB는 많은 테이블로 이루어짐
+- 데이터베이스의 구조와 제약조건에 관해 전반적인 명세를 기술한 것
 - schema는 테이블의 관계 방식을 제어
 
 SQL 종류
@@ -122,7 +129,7 @@ Data warehouses와 Data lake
 - Data lake
   - 모든 raw data를 저장 -> 처리되지 않았기에 지저분함
   - petabytes ->  $$10^{15}$$ bytes
-  - 모든 형태의 데이터가 들어감 -> structure를 따지지 않음
+  - 모든 형태의 데이터가 들어감 -> structure를 따지지 않음 -> storage
     - 데이터를 저장하는 도중에 어떤 모델도 적용하지 않음
   - 효율적
   - 분석하기 어려움
@@ -132,7 +139,7 @@ Data warehouses와 Data lake
 - Data warehouse
   - 모든 데이터를 저장하지 않고 특정 용도로 사용되는 데이터 저장
   - 상대적으로 적은 용량
-  - structured data 형식 적용
+  - structured data 형식 적용 -> database
   - update하는데 더 많은 비용 소모
   - 데이터 분석에 최적화되어 있음
   - data analyst가 집계 및 요약과 같은 읽기 전용 쿼리, 미리 정의된 쿼리가 아닌 즉석에서 사용되는 쿼리(Ad-hoc)에 사용
@@ -166,6 +173,8 @@ Data processing
 
 Data Engineer가 어떻게 데이터를 처리하는가
  - 데이터 가공, cleaning, tidying 
+   - cleaning: 잘못된 정보를 고치거나 제거해서 데이터를 깨끗하게 하는 것
+   - tidying: 데이터를 분석하기 쉬운 모양새로 정리하는 것
    - 자동화되어야 함
    - 언제든지 준비되어 있어야 함
  - structured DB에 정상적으로 데이터를 저장
@@ -180,6 +189,7 @@ Scheduling
 - 데이터 엔지니어링 시스템의 접착제
 - 작은 조각 하나 하나가 함께 작동하는 방식을 정리
 - 특정 순서로 작업 실행, 모든 종속성을 올바르게 해결
+- 리눅스 작업 스케줄러 crontab
 
 붙이는 방법
 - 수동
@@ -235,7 +245,7 @@ Cloud computing
     - 다른 위치에 데이터 복제
   - 민감한 데이터를 조작할 때의 위험
     - 클라우드 제공 업체가 해결
-  - 종류
+  - 종류: AWS, Azure, GCP
     - File storage: AWS S3, Azure Blob Storage, Google Cloud Storage
     - Computation: AWS EC2, Azure Virtual Machines, Google Compute Engine
     - Databases: AWS RDS, Azure SQL database, Google Cloud SQL
@@ -247,6 +257,8 @@ Multicloud
 - 지역적인 법률 때문에 필요할 수도 있음
 - 재난에 대비
   - e.g. 2017 AWS 운영 중단으로 인해 인터넷이 중단됨
+  - 대처 방법
+    - 리전을 복사하는 경우도 있다고 한다. 
 - 기업은 많은 서비스를 통합하여 소비자를 고정하려 함
 - 일부 서비스들은 호환되지 않을 수 있음
 - 보안 및 governance 관리가 어려워짐
