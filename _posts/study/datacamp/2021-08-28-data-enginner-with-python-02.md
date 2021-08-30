@@ -239,6 +239,7 @@ parallel computing
 
 multiprocessing.Pool
 - low level에서 multiprocessing.Pool
+
 ```python
 from multiprocessing import Pool
 
